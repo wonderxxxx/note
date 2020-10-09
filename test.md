@@ -103,6 +103,10 @@ console.log(out);
 function my_atof(str){
 return Math.max(Math.min(parseFloat(str.trim().match(/^[+|-]?\d+/)||0), Math.pow(2,31)-1), -Math.pow(2,31))
 }
+```
+
+
+
 
 12.
 
