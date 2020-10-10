@@ -18,7 +18,7 @@
 function calc_line_spaces((n) 
 { 
 let line = parseInt(n); 
-let part = (Math.pow(line,2) + line)/2 +1;
+let part = (Math.pow(n,2) + n)/2 +1;
 return part;
 } 
 ```
@@ -29,7 +29,7 @@ return part;
 function calc_zig_spaces(n)
 {
     let line = parseInt(n); 
-let part = 2*Math.pow(line,2) - line +1;
+let part = 2*Math.pow(n,2) - n +1;
 return part;
 }
 ```
